@@ -15,6 +15,3 @@ elif text == "guru less":
 
 elif text == "akuntan publik":
     st.json([{'label': 'LABEL_2', 'score': 0.9972035884857178}])
-
-else:
-    st.json("tidak diketahui")
