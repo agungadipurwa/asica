@@ -10,7 +10,7 @@ if text == "Penyewaan wedding":
     # st.json(out)
     st.json(
     [
-    0 : {
+    "0" : {
         'stuff': [
         'stuff 1',
         'stuff 2',
