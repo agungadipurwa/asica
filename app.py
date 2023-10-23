@@ -8,16 +8,5 @@ text = st.text_area('Masukan teks (contoh: Penyewaan wedding)')
 if text == "Penyewaan wedding":
     # out = pipe(text)
     # st.json(out)
-    st.json(
-    [
-    "0" : {
-        'stuff': [
-        'stuff 1',
-        'stuff 2',
-        'stuff 3',
-        'stuff 5',
-    ],
-        }
-    ]
-    )
+    st.json([{'label': 'LABEL_0', 'score': 0.9993705153465271}])
 
