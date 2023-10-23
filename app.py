@@ -9,15 +9,15 @@ if text == "Penyewaan wedding":
     # out = pipe(text)
     # st.json(out)
     st.json(
-{
-    'foo': 'bar',
-    'baz': 'boz',
-    'stuff': [
+    [
+    0 : {
+        'stuff': [
         'stuff 1',
         'stuff 2',
         'stuff 3',
         'stuff 5',
     ],
-}
+        }
+    ]
     )
 
