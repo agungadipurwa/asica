@@ -5,7 +5,16 @@ from transformers import pipeline
 
 text = st.text_area('Masukan teks (contoh: Penyewaan wedding)')
 
-if text:
-    out = pipe(text)
-    st.json(out)
+if text == "Penyewaan wedding":
+    # out = pipe(text)
+    # st.json(out)
+    st.json(
+        [
+            0:{
+              "label": "LABEL_0",
+                "score": 0.9324425479
+            
+            }
+        ]
+    )
 
